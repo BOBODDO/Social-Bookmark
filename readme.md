@@ -15,4 +15,5 @@
 > entities(objects), behavior(queries), 생성 테이블 및 칼럼을 정의합니다.
 
 
-* 추가예정
+## GIT FLOW 사용
+> MYSQL EERD를 이용한 쿼리문 및 테이블 생성 이후부터는 GIT FLOW를 통해 프로젝트를 관리합니다.

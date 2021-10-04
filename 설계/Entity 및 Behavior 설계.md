@@ -44,6 +44,7 @@
 * AuthorizedUser : 해당 북마크를 열람할 수 있는 회원, User 테이블과 Foreign Key로 연결 필요
 * URL : 북마크에 지정된 URL 주소 값
 * Content : 북마크 URL과 같이 기재된 컨텐츠 내용
+* RegDate : 생성날짜
   
 추가로 Vote 테이블과 Blamed 테이블에 값 삽입시 프로시저를 통해 미리 신고/추천/비추천 시 그 횟수를 쿼리해서 Count 해 놓는 Column을 생성하면 좋을 듯 하다
 Foreign Key 연결 필요 : Blamed(신고 접수), Vote(추천/비추천), Comment(해당 북마크에 작성된 댓글), User, Category
